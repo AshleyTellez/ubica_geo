@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-base= pd.read_stata('C:/Users/astri/.spyder-py3/concentradohogar.dta')
+base= pd.read_stata('C:/Users/ast/.spyder-py3/concentradohogar.dta')
 base = base[base['ubica_geo'] == '15033']
 
 #PRIMERA
