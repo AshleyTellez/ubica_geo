@@ -1,5 +1,5 @@
 import pandas as pd
-base= pd.read_stata('C:/Users/astri/.spyder-py3/concentradohogar.dta')
+base= pd.read_stata('C:/Users/asti/.spyder-py3/concentradohogar.dta')
 base1=base[(base['ubica_geo']=='15033')]
 
 
