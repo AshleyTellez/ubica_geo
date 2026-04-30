@@ -24,8 +24,8 @@ def divide_df(all_data):
     # Returns divided dfs of training and test set
     return all_data.loc[:890], all_data.loc[891:].drop(['Survived'], axis=1)
 
-df_train = pd.read_csv('C:/Users/astri/.spyder-py3/gender_submission.csv')
-df_test = pd.read_csv('C:/Users/astri/.spyder-py3/gender_submission.csv')
+df_train = pd.read_csv('C:/Users/asti/.spyder-py3/gender_submission.csv')
+df_test = pd.read_csv('C:/Users/asti/.spyder-py3/gender_submission.csv')
 df_all = concat_df(df_train, df_test)
 
 df_train.name = 'Training Set'
